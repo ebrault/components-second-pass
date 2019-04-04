@@ -9,7 +9,7 @@ const CommentDetail = (props) => {
       </a>
       <div className="content">
         <a href="/" className="author">
-          Sam
+          {props.author}
         </a>
         <div className="metadata">
           <span className="date">Today At 6:00 PM</span>
